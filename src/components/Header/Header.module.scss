@@ -1,0 +1,50 @@
+.wrapper {
+  .toolbarWrap {
+    background: white;
+
+    .title {
+      color: #de554a;
+    }
+
+    .headerMenu {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      color: black;
+
+      div {
+        display: flex;
+        align-items: center;
+
+        .quantityBox {
+          border: 1.3px solid #d0d0d0;
+          width: 3rem;
+          height: 2rem;
+          padding: 4px 4px 4px 33px;
+          margin-right: 10px;
+        }
+
+        .cartButton {
+          background-color: #de554a;
+          border-radius: 0px;
+          margin-right: 2.3rem;
+          svg {
+            font-size: 28px;
+          }
+        }
+
+        .customBadgeStyle {
+          span {
+            background-color: #de554a;
+            font-size: 8px;
+            min-width: 14px;
+            padding: 0px 4px;
+            height: 14px;
+            border-radius: 10px;
+            animation: bounce 0.5s ease;
+          }
+        }
+      }
+    }
+  }
+}
